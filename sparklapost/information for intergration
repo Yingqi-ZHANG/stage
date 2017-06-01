@@ -1,0 +1,11 @@
+Name
+spark-pour-La-Poste
+
+Client ID
+C1de444000a382b286f68e54fd182467de494bd86f4ef7125c151449c39a4c4e5
+
+Client Secret
+076d44e7655b0aefce24de45d4816844f7b361b9ea572e21009a24dedef0dc78
+
+OAuth Authorization URL
+https://api.ciscospark.com/v1/authorize?client_id=C1de444000a382b286f68e54fd182467de494bd86f4ef7125c151449c39a4c4e5&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Findex.html&scope=spark%3Aall%20spark%3Akms

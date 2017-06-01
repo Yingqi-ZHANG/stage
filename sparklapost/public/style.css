@@ -1,0 +1,142 @@
+html, body{
+  margin:0;
+  height:100%;
+}
+#head {
+  height: 11%;
+  display: block;
+}
+#mainbody {
+  height: 83%;
+}
+.box{
+  float:left;
+  height: auto;
+  height:
+  border: 1px solid #CCCCCC;
+  width: 20%;
+  transition: width 1s;
+  -moz-transition: width 1s;	/* Firefox 4 */
+  -webkit-transition: width 1s;	/* Safari Chrome */
+  -o-transition: width 1s;/*Opera*/
+}
+
+.teambutton {
+  margin: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  width: 160px;
+  padding: 4px;
+  text-decoration: none;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 0px #525252;
+  -moz-box-shadow: 0px 0px 0px #525252;
+  box-shadow: 0px 0px 0px #525252;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #69c6d6 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3beded), to(#1bb1db));
+  background: -moz-linear-gradient(top, #3beded, #1bb1db);
+}
+.teambutton:hover {
+  background: #2abce0;
+}
+
+.roombutton {
+  margin: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  width: 160px;
+  padding: 4px;
+  text-decoration: none;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 0px #525252;
+  -moz-box-shadow: 0px 0px 0px #525252;
+  box-shadow: 0px 0px 0px #525252;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #6ad4cb 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3bebbf), to(#1cd9b3));
+  background: -moz-linear-gradient(top, #3bebbf, #1cd9b3);
+}
+.roombutton:hover {
+  background: #2adec0;
+}
+
+.focus{
+  width: 59%;
+}
+.logbutton {
+  margin: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 4px;
+  text-decoration: none;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 0px #525252;
+  -moz-box-shadow: 0px 0px 0px #525252;
+  box-shadow: 0px 0px 0px #525252;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #69c6d6 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3beded), to(#1bb1db));
+  background: -moz-linear-gradient(top, #3beded, #1bb1db);
+}
+.logbutton:hover {
+  background: #2abce0;
+}
+
+.functionbutton {
+  margin: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  width: 160px;
+  padding: 4px;
+  text-decoration: none;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 0px #525252;
+  -moz-box-shadow: 0px 0px 0px #525252;
+  box-shadow: 0px 0px 0px #525252;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #69c6d6 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#3beded), to(#1bb1db));
+  background: -moz-linear-gradient(top, #3beded, #1bb1db);
+}
+.functionbutton:hover {
+  background: #2abce0;
+}
+
+
+#login-overlay{
+  margin: 0 auto;
+  text-align: center;
+}
+.title{
+  height: 30px;
+  text-align: center;
+  background-color: #DDDDDD;
+}
+
+#foot {
+  height: 5%;
+  display: block;
+}
+
+#incoming-call {
+  height: 300px;
+  border-left: none;
+}
+
+#outgoing-call {
+  height: 200px;
+  border-left: none;
+}

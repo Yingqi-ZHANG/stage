@@ -1,0 +1,28 @@
+{
+  "name": "spark-pour-la-poste",
+  "version": "1.0.0",
+  "description": "maison de srevice au public",
+  "main": "localserver.js",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "ciscospark": "^1.0.3",
+    "debug": "^2.3.2",
+    "express": "^4.15.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "mki-font-ciscosans": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://cto-github.cisco.com/yingqzha/spark-pour-la-poste.git"
+  },
+  "keywords": [
+    "spark"
+  ],
+  "author": "Yingqi ZHANG (zhangyingq@eisti.eu)",
+  "license": "ISC"
+}

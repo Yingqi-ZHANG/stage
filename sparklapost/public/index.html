@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SPARK MSAP</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="js/indexb.js"></script>
+</head>
+<body>
+  <div id="head" class="">
+    <img src="image/icon.jpg" alt="logo MSAP" width="40px" height="60px">
+    <button id="logout-button"  class="logbutton" style="position:relative; float:right;top:10px; bottom:10px;">Log Out</button>
+  </div>
+  <div id="mainbody" class="">
+    <div id ="left" class="box focus">
+      <div class="title">
+        Accueil
+      </div>
+    </div>
+    <div id ="centre" class="box">
+      <div class="title">
+        Services
+      </div>
+    </div>
+    <div id="right" class="box">
+      <div class="title">
+      </div>
+      <div id="espaceVideo">
+
+      </div>
+      <div id="function"class=""style="display:none">
+        <input type="text" id="user-email" placeholder="Email" />
+        <br>
+        <button id="call" class="functionbutton" name="button">Appler</button>
+        <br>
+        <button id="message" class="functionbutton" name="button">Messages</button>
+        <br>
+        <button id="file" class="functionbutton" name="button">Fichiers</button>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div id="foot" class="">
+    30/05/2017
+  </div>
+  <template id="login-template">
+      <section id="login-overlay">
+          <img src="image/icon.jpg" alt="logo MSAP">
+          <br>
+        <button class="logbutton" id="login-button">Spark Log In</button>
+      </section>
+  </template>
+
+  <template id="active-call-template">
+    <section id="active-call-overlay" class="overlay">
+      <div class="video-container">
+        <div class="incoming-video">
+          <video class="video" id="incoming-call" autoplay></video>
+        </div>
+        <div class="outgoing-video">
+          <video class="video" id="outgoing-call" muted autoplay></video>
+        </div>
+      </div>
+      <div class="controls-container">
+        <div class="incoming-controls">
+          <button class="functionbutton" id="hangup-call">Hangup</button>
+        </div>
+      </div>
+    </section>
+  </template>
+
+</body>
+</html>
